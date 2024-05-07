@@ -3,7 +3,7 @@ import turtle
 
 # Function to draw fractal tree
 def draw_fractal_tree(branch_length, t):
-    if branch_length < 5:
+    if branch_length < 10:
         return
     else:
         t.forward(branch_length)
